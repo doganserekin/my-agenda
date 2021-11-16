@@ -1,0 +1,62 @@
+{
+  "name": "MyAgenda",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-native-fontawesome": "^0.2.7",
+    "@react-native-async-storage/async-storage": "^1.15.11",
+    "@react-native-community/cli-platform-android": "^4.10.0",
+    "@react-native-community/masked-view": "^0.1.10",
+    "axios": "^0.23.0",
+    "immutable": "^4.0.0-rc.12",
+    "react": "17.0.2",
+    "react-native": "0.66.3",
+    "react-native-action-button": "^2.8.5",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-reanimated": "^1.9.0",
+    "react-native-safe-area-context": "^3.0.2",
+    "react-native-safe-area-view": "^1.1.1",
+    "react-native-screens": "^2.8.0",
+    "react-native-simple-dialogs": "^1.3.0",
+    "react-native-svg": "^12.1.1",
+    "react-native-uuid": "^2.0.1",
+    "react-native-zoom-image": "^0.1.2",
+    "react-navigation": "^4.3.9",
+    "react-navigation-redux-helpers": "^4.0.1",
+    "react-navigation-stack": "^2.7.0",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5",
+    "redux-saga": "^1.1.3",
+    "reselect": "^4.0.0",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/runtime": "^7.16.3",
+    "@react-native-community/eslint-config": "^3.0.1",
+    "babel-jest": "^27.3.1",
+    "eslint": "^8.2.0",
+    "jest": "^27.3.1",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-test-renderer": "17.0.2"
+  },
+  "resolutions": {
+    "d2/left-pad": "1.1.1",
+    "c/**/left-pad": "^1.1.2"
+  },
+  "jest": {
+    "preset": "react-native",
+    "transformIgnorePatterns": [
+      "node_modules/(?!(react-native|my-project|react-native-button|nodejs-mobile-react-native|react-navigation|react-native-iphone-x-helper|@react-native|polyfills|react-native-gesture-handler|react-navigation-stack|@fortawesome/react-native-fontawesome|react-native-action-button|@react-native-async-storage/async-storage)/)"
+    ]
+  }
+}
